@@ -26,6 +26,8 @@ func init() {
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
 	}
+
+	global.Logger.Infof("%s : Logger test", "Test")
 }
 
 func main() {

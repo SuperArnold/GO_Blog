@@ -140,11 +140,11 @@ func (l *Logger) Output(level Level, message string) {
 	}
 }
 
-func (l *Logger) info(v ...interface{}) {
+func (l *Logger) Info(v ...interface{}) {
 	l.Output(LevelInfo, fmt.Sprint(v...))
 }
 
-func (l *Logger) infof(format string, v ...interface{}) {
+func (l *Logger) Infof(format string, v ...interface{}) {
 	l.Output(LevelInfo, fmt.Sprintf(format, v...))
 }
 
