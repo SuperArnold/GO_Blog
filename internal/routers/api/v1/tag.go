@@ -1,6 +1,8 @@
 package v1
 
 import (
+	"github.com/SuperArnold/GO_Blog/pkg/app"
+	"github.com/SuperArnold/GO_Blog/pkg/errcode"
 	"github.com/gin-gonic/gin"
 )
 
@@ -21,7 +23,10 @@ func (t Tag) Create(c *gin.Context) {}
 func (t Tag) Update(c *gin.Context) {}
 func (t Tag) Delete(c *gin.Context) {}
 
-func (t Article) Get(c *gin.Context)    {}
+func (t Article) Get(c *gin.Context) {
+	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
+	return
+}
 func (t Article) List(c *gin.Context)   {}
 func (t Article) Create(c *gin.Context) {}
 func (t Article) Update(c *gin.Context) {}
