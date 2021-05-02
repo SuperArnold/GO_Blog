@@ -30,6 +30,10 @@ func init() {
 	global.Logger.Infof("%s : Logger test", "Test")
 }
 
+// @title Blog系統
+// @version 1.0
+// @description GO Blog system
+// @termsOfService ArnoldSuper github
 func main() {
 	// r := gin.Default()
 	// r.GET("/ping", func(c *gin.Context) {
