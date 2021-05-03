@@ -8,3 +8,5 @@
 2021/05/03 01:53:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978010240559000}
 2021/05/03 01:55:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978146459512000}
 2021/05/03 01:57:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978228613291000}
+2021/05/04 00:34:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059674454763000}
+2021/05/04 00:37:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059828735190000}

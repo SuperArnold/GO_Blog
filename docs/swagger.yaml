@@ -1,4 +1,13 @@
 definitions:
+  app.Pager:
+    properties:
+      page:
+        type: integer
+      pageSize:
+        type: integer
+      totalRows:
+        type: integer
+    type: object
   errcode.Error:
     type: object
   model.Tag:
@@ -21,6 +30,15 @@ definitions:
         type: string
       state:
         type: integer
+    type: object
+  model.TagSwagger:
+    properties:
+      list:
+        items:
+          $ref: '#/definitions/model.Tag'
+        type: array
+      pager:
+        $ref: '#/definitions/app.Pager'
     type: object
 info:
   contact: {}
@@ -59,7 +77,7 @@ paths:
         "200":
           description: 成功
           schema:
-            $ref: '#/definitions/model.Tag'
+            $ref: '#/definitions/model.TagSwagger'
         "400":
           description: 請求錯誤
           schema:
@@ -99,7 +117,7 @@ paths:
         "200":
           description: 成功
           schema:
-            $ref: '#/definitions/model.Tag'
+            $ref: '#/definitions/model.TagSwagger'
         "400":
           description: 請求錯誤
           schema:
@@ -123,7 +141,7 @@ paths:
         "200":
           description: 成功
           schema:
-            $ref: '#/definitions/model.Tag'
+            $ref: '#/definitions/model.TagSwagger'
         "400":
           description: 請求錯誤
           schema:
@@ -170,7 +188,7 @@ paths:
         "200":
           description: 成功
           schema:
-            $ref: '#/definitions/model.Tag'
+            $ref: '#/definitions/model.TagSwagger'
         "400":
           description: 請求錯誤
           schema:
