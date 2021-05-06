@@ -10,3 +10,8 @@
 2021/05/03 01:57:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978228613291000}
 2021/05/04 00:34:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059674454763000}
 2021/05/04 00:37:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059828735190000}
+2021/05/07 01:13:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620321220976255000}
+2021/05/07 01:14:10 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321250622494000}
+2021/05/07 01:17:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321447761683000}
+2021/05/07 01:19:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321592667611000}
+2021/05/07 01:20:06 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321606890933000}
