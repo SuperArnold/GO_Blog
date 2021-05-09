@@ -1,17 +1,175 @@
-2021/05/02 23:19:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619968792882474000}
-2021/05/03 00:21:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619972474699637000}
-2021/05/03 00:25:56 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619972756708221000}
-2021/05/03 00:48:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619974096332761000}
-2021/05/03 00:48:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619974120988778000}
-2021/05/03 01:48:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619977732443278000}
-2021/05/03 01:51:19 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619977879274385000}
-2021/05/03 01:53:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978010240559000}
-2021/05/03 01:55:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978146459512000}
-2021/05/03 01:57:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1619978228613291000}
-2021/05/04 00:34:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059674454763000}
-2021/05/04 00:37:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620059828735190000}
-2021/05/07 01:13:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"info","message":"Test : Logger test","time":1620321220976255000}
-2021/05/07 01:14:10 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321250622494000}
-2021/05/07 01:17:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321447761683000}
-2021/05/07 01:19:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321592667611000}
-2021/05/07 01:20:06 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 25 main.init.0"],"level":"fatal","message":"app.BindAndValid errs: ","time":1620321606890933000}
+2021/05/10 01:35:55 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620581755779109000}
+2021/05/10 01:38:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620581920422742000}
+2021/05/10 01:38:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620581920422841000}
+2021/05/10 01:38:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620581920429279000}
+2021/05/10 01:38:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620581920429337000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620581934484205000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620581934484271000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620581934486056000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620581934486114000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620581934486131000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620581934486143000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620581934486156000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620581934486165000}
+2021/05/10 01:38:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: pq: column \"modified_by\" of relation \"tag\" does not exist","time":1620581934494934000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582002829559000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582002829616000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582002831996000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582002832056000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582002832072000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582002832084000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582002832100000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582002832134000}
+2021/05/10 01:40:02 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: pq: column \"create_on\" of relation \"tag\" does not exist","time":1620582002857037000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582030325720000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582030325792000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582030326820000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582030326899000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582030326925000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582030326945000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582030326962000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582030326976000}
+2021/05/10 01:40:30 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: pq: column \"modified_on\" of relation \"tag\" does not exist","time":1620582030337382000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582072782136000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582072782208000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582072786065000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582072786137000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582072786158000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582072786174000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582072786191000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582072786205000}
+2021/05/10 01:41:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: pq: column \"deleted_on\" of relation \"tag\" does not exist","time":1620582072810112000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582089036644000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582089036704000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582089036953000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582089037011000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582089037046000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582089037059000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582089037072000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582089037083000}
+2021/05/10 01:41:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: pq: column \"is_del\" of relation \"tag\" does not exist","time":1620582089041889000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582123116735000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582123116799000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582123118136000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582123118186000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582123118207000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582123118225000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582123118243000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582123118259000}
+2021/05/10 01:42:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620582123262346000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620582159927681000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620582159927745000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620582159928383000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582159928444000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620582159928470000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620582159928511000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620582159928530000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620582159928544000}
+2021/05/10 01:42:39 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620582159948554000}
+2021/05/10 02:01:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583285716670000}
+2021/05/10 02:01:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583285717174000}
+2021/05/10 02:01:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583285748838000}
+2021/05/10 02:01:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583285748881000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583291016337000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583291016459000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583291019505000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583291019575000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583291019603000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583291019623000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583291019641000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583291019658000}
+2021/05/10 02:01:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620583291043238000}
+2021/05/10 02:02:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583332250900000}
+2021/05/10 02:02:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583332251205000}
+2021/05/10 02:02:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583332257920000}
+2021/05/10 02:02:12 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583332257978000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583334584517000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583334584725000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583334591867000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583334591924000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583334591944000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583334591957000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583334591972000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583334591985000}
+2021/05/10 02:02:14 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620583334612655000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583336796003000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583336796057000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583336796253000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583336796279000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583336796293000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583336796305000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583336796319000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583336796329000}
+2021/05/10 02:02:16 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620583336828844000}
+2021/05/10 02:02:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583369010281000}
+2021/05/10 02:02:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583369010388000}
+2021/05/10 02:02:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583369017196000}
+2021/05/10 02:02:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583369017231000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583372734151000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583372734201000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583372734380000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583372734406000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583372734421000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583372734435000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583372734450000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583372734465000}
+2021/05/10 02:02:52 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to int is unsupported","time":1620583372742021000}
+2021/05/10 02:03:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583395324476000}
+2021/05/10 02:03:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583395324578000}
+2021/05/10 02:03:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583395332854000}
+2021/05/10 02:03:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583395332907000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583398757057000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583398757124000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583398759376000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583398759453000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583398759479000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583398759496000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583398759513000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583398759548000}
+2021/05/10 02:03:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620583398769497000}
+2021/05/10 02:04:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583443745759000}
+2021/05/10 02:04:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583443745855000}
+2021/05/10 02:04:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583443753308000}
+2021/05/10 02:04:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583443753351000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583445991576000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583445991652000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583445995196000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583445995249000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583445995265000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583445995276000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583445995290000}
+2021/05/10 02:04:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583445995303000}
+2021/05/10 02:04:06 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to string is unsupported","time":1620583446005548000}
+2021/05/10 02:06:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583581007631000}
+2021/05/10 02:06:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583581007720000}
+2021/05/10 02:06:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583581015078000}
+2021/05/10 02:06:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583581015125000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583585116613000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583585118555000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583585118771000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583585118795000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583585118808000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583585118815000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583585118824000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583585118831000}
+2021/05/10 02:06:25 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag err: sql: Scan error on column index 0, name \"id\": converting NULL to int is unsupported","time":1620583585125718000}
+2021/05/10 02:08:43 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620583723005438000}
+2021/05/10 02:08:43 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620583723005560000}
+2021/05/10 02:08:43 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"DB connext GOOD","time":1620583723031847000}
+2021/05/10 02:08:43 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620583723031910000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583726488488000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583726488562000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583726490105000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583726490166000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583726490185000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583726490201000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583726490211000}
+2021/05/10 02:08:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583726490224000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: 1","time":1620583741140194000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"svc.CreateTag msg: ","time":1620583741140276000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620583741142727000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583741142781000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Arnold","time":1620583741142802000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"CCCCCC : 22222222","time":1620583741142814000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist","time":1620583741142825000}
+2021/05/10 02:09:01 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"table is exist : tag","time":1620583741142835000}

@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"time"
 
+	_ "github.com/lib/pq"
+
 	"github.com/SuperArnold/GO_Blog/internal/model"
 	"github.com/natefinch/lumberjack"
 
@@ -25,6 +27,11 @@ func init() {
 	err = setupLogger()
 	if err != nil {
 		log.Fatalf("init.setupLogger err: %v", err)
+	}
+
+	err = setupDBEngine()
+	if err != nil {
+		log.Fatalf("init.setupDBEngine err: %v", err)
 	}
 
 	global.Logger.Infof("%s : Logger test", "Test")
@@ -81,6 +88,7 @@ func setupSetting() error {
 
 func setupDBEngine() error {
 	var err error
+	global.Logger.Fatalf("svc.setupDBEngine  %v  !!!", "KKKKK")
 	global.DBEngine, err = model.NewDBEngine(global.DatabaseSetting)
 	if err != nil {
 		return err
