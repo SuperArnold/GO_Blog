@@ -65,12 +65,12 @@ func (t Tag) Create(db *gorm.DB) error {
 	return db.Create(&t).Error
 }
 
-// func (t Tag) Update(db *gorm.DB) error {
-// 	db = db.Model(&Tag{}).Where("id = ? AND is_del = ?", t.ID, 0)
-// 	return db.Update(t).Error
-// }
+func (t Tag) Update(db *gorm.DB) error {
+	db = db.Model(&Tag{}).Where("id = ? AND is_del = ?", t.ID, 0)
+	return db.Update(t).Error
+}
 
-// func (t Tag) Delete(db *gorm.DB) error {
-// 	db = db.Model(&Tag{}).Where("id = ? AND is_del = ?", t.ID, 0)
-// 	return db.Where("id = ? AND is_del = ?", t.Model.ID, 0).Delete(&t).Error
-// }
+func (t Tag) Delete(db *gorm.DB) error {
+	db = db.Model(&Tag{}).Where("id = ? AND is_del = ?", t.ID, 0)
+	return db.Where("id = ? AND is_del = ?", t.Model.ID, 0).Delete(&t).Error
+}

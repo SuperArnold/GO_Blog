@@ -26,6 +26,7 @@ require (
 	github.com/jackc/pgx v3.2.0+incompatible // indirect
 	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/kshvakov/clickhouse v1.3.4 // indirect
+	github.com/liamylian/json-hashids v0.1.0 // indirect
 	github.com/lib/pq v1.10.1 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mattn/go-sqlite3 v2.0.1+incompatible // indirect

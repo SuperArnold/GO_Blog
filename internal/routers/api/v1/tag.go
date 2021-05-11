@@ -4,6 +4,7 @@ import (
 	"github.com/SuperArnold/GO_Blog/global"
 	"github.com/SuperArnold/GO_Blog/internal/service"
 	"github.com/SuperArnold/GO_Blog/pkg/app"
+	"github.com/SuperArnold/GO_Blog/pkg/convert"
 	"github.com/SuperArnold/GO_Blog/pkg/errcode"
 	"github.com/gin-gonic/gin"
 )
@@ -60,11 +61,8 @@ func (t Tag) List(c *gin.Context) {
 // @Failure 500 {object} errcode.Error "內部錯誤"
 // @Router /api/v1/tags [post]
 func (t Tag) Create(c *gin.Context) {
-	global.Logger.Infof("svc.CreateTag msg: %v", "1")
-	// msg := c.PostForm("Name")
 
 	param := service.CreateTagRequest{}
-	global.Logger.Infof("svc.CreateTag msg: %v", param.Name)
 	response := app.NewResponse(c)
 	valid, errs := app.BindAndValid(c, &param)
 	if !valid {
@@ -74,7 +72,6 @@ func (t Tag) Create(c *gin.Context) {
 	}
 
 	svc := service.New(c.Request.Context())
-	global.Logger.Info(param.Name)
 
 	err := svc.CreateTag(&param)
 	if err != nil {
@@ -97,7 +94,31 @@ func (t Tag) Create(c *gin.Context) {
 // @Failure 400 {object} errcode.Error "請求錯誤"
 // @Failure 500 {object} errcode.Error "內部錯誤"
 // @Router /api/v1/tags/{id} [put]
-func (t Tag) Update(c *gin.Context) {}
+func (t Tag) Update(c *gin.Context) {
+	param := service.UpdateTagRequest{
+		ID: convert.StrTo(c.Param("id")).MustInt(),
+	}
+	global.Logger.Fatalf("svc.Update AAAA: %v  !!!", param.ID)
+	response := app.NewResponse(c)
+	valid, errs := app.BindAndValid(c, &param)
+	if !valid {
+		global.Logger.Fatalf("svc.Update errs: %v  !!!", valid)
+		response.ToErrorResponse(errcode.ErrorUpdateTagFail)
+		return
+	}
+
+	svc := service.New(c.Request.Context())
+	err := svc.UpdateTag(&param)
+	if err != nil {
+		global.Logger.Fatalf("svc.Update errs: %v  !!!", errs)
+		response.ToErrorResponse(errcode.ErrorUpdateTagFail)
+		return
+	}
+
+	response.ToResponse(gin.H{})
+	return
+
+}
 
 // @Summary 刪除標籤
 // @Produce json
