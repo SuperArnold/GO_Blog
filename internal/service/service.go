@@ -27,3 +27,7 @@ func (svc *Service) CreateTag(param *CreateTagRequest) error {
 func (svc *Service) UpdateTag(param *UpdateTagRequest) error {
 	return svc.dao.UpdateTag(param.ID, param.Name, param.State, param.ModifiedBy)
 }
+
+func (svc *Service) DeleteTag(param *DeleteTagRequest) error {
+	return svc.dao.DeleteTag(param.ID)
+}

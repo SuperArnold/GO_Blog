@@ -249,3 +249,8 @@
 2021/05/12 00:38:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620751109270380000}
 2021/05/12 00:40:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.Update AAAA: 5  !!!","time":1620751203851236000}
 2021/05/12 00:40:03 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620751203856798000}
+2021/05/12 01:32:55 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1620754375758562000}
+2021/05/12 01:32:55 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1620754375758958000}
+2021/05/12 01:32:55 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620754375765454000}
+2021/05/12 01:33:13 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620754393452743000}
+2021/05/12 01:34:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620754448786207000}

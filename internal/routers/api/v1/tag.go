@@ -98,11 +98,9 @@ func (t Tag) Update(c *gin.Context) {
 	param := service.UpdateTagRequest{
 		ID: convert.StrTo(c.Param("id")).MustInt(),
 	}
-	global.Logger.Fatalf("svc.Update AAAA: %v  !!!", param.ID)
 	response := app.NewResponse(c)
 	valid, errs := app.BindAndValid(c, &param)
 	if !valid {
-		global.Logger.Fatalf("svc.Update errs: %v  !!!", valid)
 		response.ToErrorResponse(errcode.ErrorUpdateTagFail)
 		return
 	}
@@ -127,7 +125,28 @@ func (t Tag) Update(c *gin.Context) {
 // @Failure 400 {object} errcode.Error "請求錯誤"
 // @Failure 500 {object} errcode.Error "內部錯誤"
 // @Router /api/v1/tags/{id} [delete]
-func (t Tag) Delete(c *gin.Context) {}
+func (t Tag) Delete(c *gin.Context) {
+	param := service.DeleteTagRequest{
+		ID: convert.StrTo(c.Param("id")).MustInt(),
+	}
+	response := app.NewResponse(c)
+	valid, errs := app.BindAndValid(c, &param)
+	if !valid {
+		response.ToErrorResponse(errcode.ErrorDeleteTagFail)
+		return
+	}
+
+	svc := service.New(c.Request.Context())
+	err := svc.DeleteTag(&param)
+	if err != nil {
+		global.Logger.Fatalf("svc.Delete errs: %v  !!!", errs)
+		response.ToErrorResponse(errcode.ErrorDeleteTagFail)
+		return
+	}
+
+	response.ToResponse(gin.H{})
+	return
+}
 
 func (t Article) Get(c *gin.Context) {
 	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
