@@ -9,6 +9,13 @@ App:
   LogSavePath: storage/logs
   LogFileName: app
   LogFileExt: .log
+  UploadSavePath: storage/uploads
+  UploadServerUel: http://127.0.0.1:8000/static
+  UploadImageMaxSize: 5 # MB
+  UploadImageAllowExtx:
+    - .jpg
+    - .jpeg
+    - .png
 Database:
   DBType: postgres
   Host: 127.0.0.1
