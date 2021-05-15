@@ -44,10 +44,12 @@ func CheckSavePath(dst string) bool {
 func CheckContainExt(t FileType, name string) bool {
 	ext := GetFileExt(name)
 	ext = strings.ToUpper(ext)
+	global.Logger.Infof("XXXX : %v", ext)
 
 	switch t {
 	case TypeImage:
 		for _, allowExt := range global.AppSetting.UploadImageAllowExts {
+			global.Logger.Infof("allowExt : %v", allowExt)
 			if strings.ToUpper(allowExt) == ext {
 				return true
 			}

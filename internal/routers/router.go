@@ -16,12 +16,14 @@ func NewRouter() *gin.Engine {
 
 	article := v1.NewArticle()
 	tag := v1.NewTag()
+	upload := NewUpload()
 
 	r.Use(gin.Logger())
 	r.Use(gin.Recovery())
 	r.Use(middleware.Translations())
 	url := ginSwagger.URL("http://127.0.0.1:8080/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
+	r.POST("/upload/file", upload.UploadFile)
 
 	apiv1 := r.Group("/api/v1")
 	{
@@ -37,6 +39,7 @@ func NewRouter() *gin.Engine {
 		apiv1.PATCH("articles/:id/state", article.Update)
 		apiv1.GET("/articles/:id", article.Get)
 		apiv1.GET("/articles", article.List)
+
 	}
 
 	return r

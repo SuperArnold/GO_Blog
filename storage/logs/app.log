@@ -254,3 +254,38 @@
 2021/05/12 01:32:55 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1620754375765454000}
 2021/05/12 01:33:13 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620754393452743000}
 2021/05/12 01:34:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1620754448786207000}
+2021/05/15 19:11:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621077093567421000}
+2021/05/15 19:11:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621077093567912000}
+2021/05/15 19:11:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621077093582442000}
+2021/05/15 19:20:59 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: Key: 'CreateTagRequest.Name' Error:Field validation for 'Name' failed on the 'required' tag\nKey: 'CreateTagRequest.CreatedBy' Error:Field validation for 'CreatedBy' failed on the 'required' tag","time":1621077659436640000}
+2021/05/15 19:20:59 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.CreateTag errs:   !!!","time":1621077659438893000}
+2021/05/15 19:22:04 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621077724774547000}
+2021/05/15 19:24:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621077869448544000}
+2021/05/15 19:26:09 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621077969198033000}
+2021/05/15 19:26:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621077991288219000}
+2021/05/15 19:26:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621077991288434000}
+2021/05/15 19:26:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621077991300965000}
+2021/05/15 19:26:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621077994533274000}
+2021/05/16 00:09:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621094973912368000}
+2021/05/16 00:09:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621094973912500000}
+2021/05/16 00:09:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621094973925477000}
+2021/05/16 00:09:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621094980171196000}
+2021/05/16 00:09:40 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621094980171262000}
+2021/05/16 00:10:11 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621095011713460000}
+2021/05/16 00:10:11 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621095011713743000}
+2021/05/16 00:10:11 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621095011732567000}
+2021/05/16 00:10:17 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621095017044804000}
+2021/05/16 00:10:17 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621095017044862000}
+2021/05/16 00:11:42 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621095102696335000}
+2021/05/16 00:11:42 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621095102696429000}
+2021/05/16 00:11:42 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621095102701702000}
+2021/05/16 00:11:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621095108430416000}
+2021/05/16 00:11:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: file suffix is not supported.","time":1621095108430480000}
+2021/05/16 00:12:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621095166612390000}
+2021/05/16 00:12:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621095166612774000}
+2021/05/16 00:12:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621095166631939000}
+2021/05/16 00:12:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621095168910163000}
+2021/05/16 00:12:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"allowExt : .JPG","time":1621095168910239000}
+2021/05/16 00:12:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: open storage/uploads/050379151ca82ec12d241045af3c5965.jpg: no such file or directory","time":1621095168910354000}
+2021/05/16 00:13:44 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621095224280293000}
+2021/05/16 00:13:44 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"allowExt : .JPG","time":1621095224280366000}
