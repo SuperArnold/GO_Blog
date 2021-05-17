@@ -34,7 +34,6 @@ func init() {
 		log.Fatalf("init.setupDBEngine err: %v", err)
 	}
 
-	global.Logger.Infof("%s : Logger test", "Test")
 }
 
 // @title Blog系統

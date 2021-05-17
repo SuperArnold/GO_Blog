@@ -35,7 +35,7 @@ func (t Tag) Get(c *gin.Context) {}
 func (t Tag) List(c *gin.Context) {
 	param := struct {
 		Name  string `form:"name" binding:"max=100"`
-		State uint8  `form:"state,default=1" binding:"oneof=01"`
+		State uint8  `form:"state","default=1"`
 	}{}
 	response := app.NewResponse(c)
 	valid, errs := app.BindAndValid(c, &param)

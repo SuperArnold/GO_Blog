@@ -29,8 +29,6 @@ func NewDBEngine(DatabaseSetting *setting.DatabaseSettingS) (*gorm.DB, error) {
 		DatabaseSetting.Password,
 	)
 
-	global.Logger.Infof("FFFFFFF: %v", DatabaseSetting.Host)
-
 	db, err := gorm.Open("postgres", s)
 	if err != nil {
 		return nil, err

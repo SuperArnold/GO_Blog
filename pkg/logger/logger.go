@@ -155,3 +155,11 @@ func (l *Logger) Fatal(v ...interface{}) {
 func (l *Logger) Fatalf(format string, v ...interface{}) {
 	l.Output(LevelFatal, fmt.Sprintf(format, v...))
 }
+
+func (l *Logger) Debug(v ...interface{}) {
+	l.Output(LevelDebug, fmt.Sprint(v...))
+}
+
+func (l *Logger) Debugf(format string, v ...interface{}) {
+	l.Output(LevelDebug, fmt.Sprintf(format, v...))
+}

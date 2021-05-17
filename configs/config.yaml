@@ -26,4 +26,4 @@ Database:
 JWT:
   Secret: Arnold
   Issuer: blog-service
-  Expire: 7200
+  Expire: 7

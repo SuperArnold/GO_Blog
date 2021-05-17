@@ -39,7 +39,6 @@ func ParseToken(token string) (*Claims, error) {
 	tokenClaims, err := jwt.ParseWithClaims(token, &Claims{}, func(token *jwt.Token) (interface{}, error) {
 		return GetJWTSecret(), nil
 	})
-
 	if tokenClaims != nil {
 		claims, ok := tokenClaims.Claims.(*Claims)
 		if ok && tokenClaims.Valid {
