@@ -23,3 +23,7 @@ Database:
   DB: blog
   User: postgres
   Password: postgres
+JWT:
+  Secret: Arnold
+  Issuer: blog-service
+  Expire: 7200

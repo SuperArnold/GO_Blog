@@ -289,3 +289,31 @@
 2021/05/16 00:12:48 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.UploadFile err: open storage/uploads/050379151ca82ec12d241045af3c5965.jpg: no such file or directory","time":1621095168910354000}
 2021/05/16 00:13:44 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXX : .JPG","time":1621095224280293000}
 2021/05/16 00:13:44 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"allowExt : .JPG","time":1621095224280366000}
+2021/05/17 03:39:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621193948029020000}
+2021/05/17 03:39:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621193948029117000}
+2021/05/17 03:39:08 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621193948038014000}
+2021/05/17 03:45:20 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621194320502077000}
+2021/05/17 03:45:20 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621194320502571000}
+2021/05/17 03:45:20 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621194320531073000}
+2021/05/17 03:46:37 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621194397875406000}
+2021/05/17 03:46:37 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"app.CheckAuth errs: pq: relation \"auth\" does not exist","time":1621194397914239000}
+2021/05/17 03:46:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621194409486598000}
+2021/05/17 03:46:49 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"app.CheckAuth errs: pq: relation \"auth\" does not exist","time":1621194409487558000}
+2021/05/17 03:51:28 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621194688081144000}
+2021/05/17 03:51:28 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"app.CheckAuth errs: pq: relation \"auth\" does not exist","time":1621194688082019000}
+2021/05/17 03:53:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621194795886182000}
+2021/05/17 03:53:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621194795886423000}
+2021/05/17 03:53:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621194795899236000}
+2021/05/17 03:53:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621194801641872000}
+2021/05/17 03:53:21 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"app.CheckAuth errs: auth info does not exist.","time":1621194801675980000}
+2021/05/17 21:23:41 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621257821409235000}
+2021/05/17 21:23:41 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621257821409535000}
+2021/05/17 21:23:41 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621257821416702000}
+2021/05/17 21:23:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXXXXAXXX: ","time":1621257826739678000}
+2021/05/17 21:23:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621257826743440000}
+2021/05/17 21:23:46 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"app.CheckAuth errs: auth info does not exist.","time":1621257826754143000}
+2021/05/17 21:39:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621258769968171000}
+2021/05/17 21:39:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"FFFFFFF: 127.0.0.1","time":1621258769968496000}
+2021/05/17 21:39:29 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"Test : Logger test","time":1621258769972745000}
+2021/05/17 21:39:36 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXXXXAXXX: ","time":1621258776361831000}
+2021/05/17 21:39:36 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"TTTTTTT msg: \u003cnil\u003e","time":1621258776365135000}

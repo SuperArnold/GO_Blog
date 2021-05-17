@@ -30,6 +30,11 @@ type DatabaseSettingS struct {
 	User     string
 	Password string
 }
+type JWTSettingS struct {
+	Secret string
+	Issuer string
+	Expire int64
+}
 
 func (s *Setting) ReadSection(k string, v interface{}) error {
 	err := s.vp.UnmarshalKey(k, v)
