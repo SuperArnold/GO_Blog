@@ -27,3 +27,12 @@ JWT:
   Secret: Arnold
   Issuer: blog-service
   Expire: 7
+Email:
+  Host: smtp.live.com
+  Port: 587
+  UserName: XXXX@hotmail.com
+  Password: 
+  IsSSL: true
+  From: XXXX@hotmail.com
+  To:
+    - XXXX@hotmail.com

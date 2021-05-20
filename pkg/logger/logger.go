@@ -163,3 +163,11 @@ func (l *Logger) Debug(v ...interface{}) {
 func (l *Logger) Debugf(format string, v ...interface{}) {
 	l.Output(LevelDebug, fmt.Sprintf(format, v...))
 }
+
+func (l *Logger) Panic(v ...interface{}) {
+	l.Output(LevelPanic, fmt.Sprint(v...))
+}
+
+func (l *Logger) Panicf(format string, v ...interface{}) {
+	l.Output(LevelPanic, fmt.Sprintf(format, v...))
+}

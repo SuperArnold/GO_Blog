@@ -1,3 +1,37 @@
 2021/05/17 22:59:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621263545088787000}
 2021/05/17 23:04:15 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621263855942395000}
 2021/05/17 23:04:19 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"info","message":"XXXXXXAXXX: ","time":1621263859753576000}
+2021/05/18 01:36:09 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621272969902738000}
+2021/05/18 01:38:05 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621273085661456000}
+2021/05/21 00:35:17 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621528517991870000}
+2021/05/21 00:35:18 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621528518040362000}
+2021/05/21 00:56:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621529787016872000}
+2021/05/21 00:56:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621529787024499000}
+2021/05/21 01:00:45 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621530045177565000}
+2021/05/21 01:00:45 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621530045228812000}
+2021/05/21 01:00:45 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621530045228868000}
+2021/05/21 01:00:47 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621530047553948000}
+2021/05/21 01:04:53 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621530293698925000}
+2021/05/21 01:04:53 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621530293704425000}
+2021/05/21 01:04:53 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621530293704487000}
+2021/05/21 01:04:56 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621530296355591000}
+2021/05/21 01:05:50 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621530350639425000}
+2021/05/21 01:05:50 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621530350699446000}
+2021/05/21 01:05:50 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621530350699530000}
+2021/05/21 01:05:53 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621530353412403000}
+2021/05/21 01:05:53 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"CCCCCCC;","time":1621530353412468000}
+2021/05/21 01:05:54 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"panic","message":"mail.SendMail err: 535 5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials k186sm2441316pgk.82 - gsmtp","time":1621530354851234000}
+2021/05/21 01:06:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621530394000888000}
+2021/05/21 01:06:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621530394006429000}
+2021/05/21 01:06:34 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621530394006468000}
+2021/05/21 01:06:36 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621530396024555000}
+2021/05/21 01:06:36 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"CCCCCCC;","time":1621530396024620000}
+2021/05/21 01:06:37 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"panic","message":"mail.SendMail err: 535 5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v14sm2470985pgl.86 - gsmtp","time":1621530397088365000}
+2021/05/21 01:27:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621531647703401000}
+2021/05/21 01:27:27 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"CCCCCCC;","time":1621531647709234000}
+2021/05/21 01:27:28 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"panic","message":"mail.SendMail err: 535 5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials l10sm2320112pfc.125 - gsmtp","time":1621531648768683000}
+2021/05/21 01:36:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1621532191320183000}
+2021/05/21 01:36:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"GFDASDFASDASD;","time":1621532191373531000}
+2021/05/21 01:36:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621532191373589000}
+2021/05/21 01:36:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621532193953204000}
+2021/05/21 01:36:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"CCCCCCC;","time":1621532193953289000}
