@@ -16,6 +16,7 @@ App:
     - .JPG
     - .JPEG
     - .PNG
+  DefaultContextTimeout: 60
 Database:
   DBType: postgres
   Host: 127.0.0.1
@@ -26,7 +27,7 @@ Database:
 JWT:
   Secret: Arnold
   Issuer: blog-service
-  Expire: 7
+  Expire: 7200
 Email:
   Host: smtp.live.com
   Port: 587

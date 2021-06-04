@@ -26,6 +26,7 @@ require (
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgx v3.2.0+incompatible // indirect
 	github.com/jinzhu/gorm v1.9.16 // indirect
+	github.com/juju/ratelimit v1.0.1 // indirect
 	github.com/kshvakov/clickhouse v1.3.4 // indirect
 	github.com/liamylian/json-hashids v0.1.0 // indirect
 	github.com/lib/pq v1.10.1 // indirect
