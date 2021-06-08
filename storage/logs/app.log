@@ -35,3 +35,4 @@
 2021/05/21 01:36:31 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"AAAAAAAA;","time":1621532191373589000}
 2021/05/21 01:36:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"BBBBBBBBB;","time":1621532193953204000}
 2021/05/21 01:36:33 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 27 main.init.0"],"level":"debug","message":"CCCCCCC;","time":1621532193953289000}
+2021/06/09 00:53:07 {"callers":["/Users/arnold/git/go/src/github.com/SuperArnold/GO_Blog/main.go: 28 main.init.0"],"level":"fatal","message":"svc.setupDBEngine  KKKKK  !!!","time":1623171187157785000}

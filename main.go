@@ -16,6 +16,7 @@ import (
 	"github.com/SuperArnold/GO_Blog/internal/routers"
 	"github.com/SuperArnold/GO_Blog/pkg/logger"
 	"github.com/SuperArnold/GO_Blog/pkg/setting"
+	"github.com/SuperArnold/GO_Blog/pkg/tracer"
 )
 
 func init() {
@@ -32,6 +33,11 @@ func init() {
 	err = setupDBEngine()
 	if err != nil {
 		log.Fatalf("init.setupDBEngine err: %v", err)
+	}
+
+	err = setupTracer()
+	if err != nil {
+		log.Fatalf("init.setupTracer err: %v", err)
 	}
 
 }
@@ -116,5 +122,19 @@ func setupLogger() error {
 		LocalTime: true,
 	}, "", log.LstdFlags).WithCaller(2)
 
+	return nil
+}
+
+func setupTracer() error {
+	jaegerTracer, _, err := tracer.NewJaegerTracer(
+		"blog-service",
+		"127.0.0.1:6831",
+	)
+
+	if err != nil {
+		return err
+	}
+
+	global.Tracer = jaegerTracer
 	return nil
 }

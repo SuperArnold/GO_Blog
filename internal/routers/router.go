@@ -38,6 +38,7 @@ func NewRouter() *gin.Engine {
 	r.Use(middleware.RateLimiter(methodLimiters))
 	r.Use(middleware.ContextTimeout(60 * time.Second))
 	r.Use(middleware.Translations())
+	r.Use(middleware.Tracing())
 
 	article := v1.NewArticle()
 	tag := v1.NewTag()

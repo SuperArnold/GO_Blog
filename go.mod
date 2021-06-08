@@ -34,6 +34,7 @@ require (
 	github.com/mattn/go-sqlite3 v2.0.1+incompatible // indirect
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
+	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/openzipkin/zipkin-go v0.1.1 // indirect
 	github.com/pelletier/go-toml v1.9.0 // indirect
 	github.com/spf13/afero v1.6.0 // indirect
@@ -44,8 +45,11 @@ require (
 	github.com/swaggo/files v0.0.0-20190704085106-630677cd5c14 // indirect
 	github.com/swaggo/gin-swagger v1.3.0 // indirect
 	github.com/swaggo/swag v1.7.0 // indirect
+	github.com/uber/jaeger-client-go v2.22.1+incompatible // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/urfave/cli v1.20.0 // indirect
 	github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/sys v0.0.0-20210423185535-09eb48e85fd7 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
